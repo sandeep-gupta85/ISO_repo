@@ -1,6 +1,6 @@
 ---
 - name: install three packages
-  hosts: ugadmin
+  hosts: all
   become: yes
   tasks:
      - name: install httpd wget
